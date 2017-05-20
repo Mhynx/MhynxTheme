@@ -140,15 +140,15 @@ div.avatar-large{border-radius:5px;}
 
 .theme-dark  form{border-top: 2px solid #212121 !important;}
 
-.channel-area{box-shadow: 0 0 transparent;margin: 0px;border-radius: 0px;-webkit-transition: all 200ms ease;transition: all 200ms ease;}
+.channel-{box-shadow: 0 0 transparent;margin: 0px;border-radius: 0px;-webkit-transition: all 200ms ease;transition: all 200ms ease;}
 
-.theme-dark .channel-area-inner .channel-area-upload{border-right-color:transparent;}
+.theme-dark .channel--inner .channel--upload{border-right-color:transparent;}
 
-.theme-dark .channel-area-inner .channel-area-upload:hover{background-color:#151517;border-radius:3px;}
+.theme-dark .channel--inner .channel--upload:hover{background-color:#151517;border-radius:3px;}
 
-.channel-area-inner .channel-area-upload{border-radius: 0px !important;width: 80px;-webkit-transition: all 100ms ease!important;transition: all 100ms ease!important;display: inline-block!important;margin: 0;}
+.channel--inner .channel--upload{border-radius: 0px !important;width: 80px;-webkit-transition: all 100ms ease!important;transition: all 100ms ease!important;display: inline-block!important;margin: 0;}
 
-.edit-message .channel-area-emoji {width: 40px;top: 2px;display: block;}
+.edit-message .channel--emoji {width: 40px;top: 2px;display: block;}
 
 .channel-members .member:hover{background:linear-gradient(to right, #121213 85%, #19191b) !important;margin-left:14px;border-top-left-radius:3px;border-bottom-left-radius:3px;}
 
@@ -288,7 +288,7 @@ button.btn:hover{background-color:#151517;border-radius:3px;}
 
 #user-profile-modal .guilds .section + .section{border:0!important;}
 
-#user-profile-modal .guilds .section .note area:focus{background-color:rgba(0, 0, 0, 0.15);border:1px solid rgba(0, 0, 0, 0.1);color:#e4e4e4;}
+#user-profile-modal .guilds .section .note :focus{background-color:rgba(0, 0, 0, 0.15);border:1px solid rgba(0, 0, 0, 0.1);color:#e4e4e4;}
 
 #user-profile-modal .guilds .section .connected-account .connected-account-name a{color:rgba(0, 176, 244, 0.6);font-weight:700;transition:color 500ms;}
 
@@ -510,7 +510,7 @@ top:80px;left:115px;width:150px;display:flex!important;}
 
 div.message-group{background-color:#19191b;}
 
-area{background:transparent !important;}
+{background:transparent !important;}
 
 .scroller-wrap .scroller::-webkit-scrollbar-thumb{border:3px solid transparent !important;background-color:var(--main-color) !important;}
 
@@ -599,9 +599,9 @@ area{background:transparent !important;}
 
 .guilds .friends-online{color:#717171 !important;font-size:9px;margin-left:-7px;line-height:20px;width:55px;height:20px;border-radius:25px;overflow:hidden;}
 
-.form .control-group input[type=],.form .control-group input[type=email],.form .control-group input[type=password],.form .control-group input[type=number],.form .control-group area{color:#cecece;border-bottom:2px solid #121213;border: 2px solid #121213 !important;background:#121213;padding:0px 0px 0px 7px;border-radius:3px;}
+.form .control-group input[type=],.form .control-group input[type=email],.form .control-group input[type=password],.form .control-group input[type=number],.form .control-group {color:#cecece;border-bottom:2px solid #121213;border: 2px solid #121213 !important;background:#121213;padding:0px 0px 0px 7px;border-radius:3px;}
 
-.form .control-group input[type=]:focus,.form .control-group input[type=email]:focus,.form .control-group input[type=password]:focus,.form .control-group input[type=number]:focus,.form .control-group area:focus{animation-duration: 2s;animation-name: focusborder;animation-fill-mode: forwards;transition-property: all;transition-timing-function: ease;}
+.form .control-group input[type=]:focus,.form .control-group input[type=email]:focus,.form .control-group input[type=password]:focus,.form .control-group input[type=number]:focus,.form .control-group :focus{animation-duration: 2s;animation-name: focusborder;animation-fill-mode: forwards;transition-property: all;transition-timing-function: ease;}
 
 @keyframes focusborder{0%{border-bottom:2px solid var(--main-color);}
 
@@ -829,7 +829,7 @@ area{background:transparent !important;}
 
 .channel-notification-settings{border-bottom:0px solid #f0f0f0;background-image:linear-gradient(90deg, transparent, transparent), linear-gradient(90deg, transparent, var(--main-color), transparent);background-size:100% 3px;background-position:0 0, 0 100%;background-repeat:no-repeat;}
 
-.tutorial-popout .button-area .skip-tips a{color:var(--main-color);}
+.tutorial-popout .button- .skip-tips a{color:var(--main-color);}
 
 .button:hover{background-color:var(--hover-color);}
 
@@ -891,15 +891,15 @@ area{background:transparent !important;}
 
 .spinner-wandering-cubes .spinner-item{background-color:var(--main-color);border-radius:20px;}
 
-.theme-dark .channel-area-autocomplete-inner,.channel-area-autocomplete-inner{background-color:#19191b;border-color:#131315;}
+.theme-dark .channel--autocomplete-inner,.channel--autocomplete-inner{background-color:#19191b;border-color:#131315;}
 
-.theme-dark .channel-area-autocomplete-inner ul li.active,.channel-area-autocomplete-inner ul li.active{background:#131315;}
+.theme-dark .channel--autocomplete-inner ul li.active,.channel--autocomplete-inner ul li.active{background:#131315;}
 
-.channel-area-autocomplete-inner ul li{color:rgba(255, 255, 255, .6);}
+.channel--autocomplete-inner ul li{color:rgba(255, 255, 255, .6);}
 
-.theme-dark .channel-area-autocomplete-inner:after,.channel-area-autocomplete-inner:after{border-bottom:2px solid #131315;}
+.theme-dark .channel--autocomplete-inner:after,.channel--autocomplete-inner:after{border-bottom:2px solid #131315;}
 
-.theme-dark .channel-area-autocomplete-inner header,.channel-area-autocomplete-inner header{border-bottom-color:var(--main-color);background-color:var(--main-color);color:#fff;border-radius:3px 3px 0px 0px;}
+.theme-dark .channel--autocomplete-inner header,.channel--autocomplete-inner header{border-bottom-color:var(--main-color);background-color:var(--main-color);color:#fff;border-radius:3px 3px 0px 0px;}
 
 .spinner-pulsing-ellipsis .spinner-item{background-color:var(--main-color);}
 
@@ -1133,7 +1133,7 @@ code{background:#121213 !important;box-shadow: 0 0 5px -1px #000}
 
 .upload-modal .inner .file .icon.image{border:2px solid var(--hover-color);}
 
-.upload-modal .inner .comment .channel-area{box-shadow:0 0px 0px rgb(23, 23, 23);}
+.upload-modal .inner .comment .channel-{box-shadow:0 0px 0px rgb(23, 23, 23);}
 
 .upload-modal .footer .button{background-color:var(--main-color);}
 
@@ -1227,7 +1227,7 @@ code{background:#121213 !important;box-shadow: 0 0 5px -1px #000}
 
 .bda-dark .emoji-picker .diversity-selector .popout{background:#121213;border-color:#121213;}
 
-.theme-dark .channel-area-inner{border-color:#1D1C1B;}
+.theme-dark .channel--inner{border-color:#1D1C1B;}
 
  .jump-to-present-bar button:last-child{color:#fff;}
 
@@ -1318,7 +1318,7 @@ div[data-reactroot]:not(.platform-osx):not(.platform-win) .theme-light + div .us
 
 #theme-search,#plugin-search{border:1px solid #121213 !important;background:#121213;border-radius:3px;color:#fff;}
 
-.message-group .edit-message .channel-area-inner{border-color:#1D1C1B;}
+.message-group .edit-message .channel--inner{border-color:#1D1C1B;}
 
 .keyboard-shortcuts-modal{background-color:#19191b;}
 
@@ -1894,7 +1894,7 @@ button.bd-customicon-settings{display:none;}
 
 .region-select-popout .check{-webkit-filter:hue-rotate(272deg);}
 
-.note area{color:#b2b2b2;}
+.note {color:#b2b2b2;}
 
 .private-channel-call .quick-region-select{background:var(--main-color);padding:4px;border-radius:3px;}
 
@@ -1944,11 +1944,11 @@ button.bd-customicon-settings{display:none;}
 
 .friends-column.friends-column-status > .status-invisible{background-color:#747f8d;border:0px solid transparent !important;}
 
-.channel-area-autocomplete-inner .avatar-small .status{right:-3px;bottom:-3px;width:100%;height:100%;border-width:3px !important;border-radius:3px;}
+.channel--autocomplete-inner .avatar-small .status{right:-3px;bottom:-3px;width:100%;height:100%;border-width:3px !important;border-radius:3px;}
 
-.theme-dark .channel-area.has-results .channel-area-inner{border-color:#1D1C1B;}
+.theme-dark .channel-.has-results .channel--inner{border-color:#1D1C1B;}
 
-.theme-dark .channel-area-autocomplete-inner .avatar-small .status{width:100%;height:100%;border-width:2px !important;left:-2px;right:0px;bottom:-2px;border-radius:3px;}
+.theme-dark .channel--autocomplete-inner .avatar-small .status{width:100%;height:100%;border-width:2px !important;left:-2px;right:0px;bottom:-2px;border-radius:3px;}
 
 #user-profile-modal .guilds .guild .status{bottom:-3px;right:-3px;width:100%;height:100%;border-radius:3px;border-width:3px !important;}
 
@@ -2062,13 +2062,13 @@ form.modal-content.form.need-help-modal::after{content:"";background:#fff;positi
 
 .premium-settings .billing-history-list li{border-bottom:2px solid #141417;}
 
-.channel-area-upload+area {margin-left: 5px;}
+.channel--upload+ {margin-left: 5px;}
 
-.channel-area-inner area{color:#fff;-webkit-transition: all 100ms ease;transition: all 100ms ease;margin-left: 10px !important;padding: 26px 0px;margin-left: 25px;margin-right: 0;max-height: 200px}}
+.channel--inner {color:#fff;-webkit-transition: all 100ms ease;transition: all 100ms ease;margin-left: 10px !important;padding: 26px 0px;margin-left: 25px;margin-right: 0;max-height: 200px}}
 
-.channel-area-inner area:focus{color:#fff;-webkit-transition:all 100ms ease;transition:all 100ms ease;opacity:0.95;}
+.channel--inner :focus{color:#fff;-webkit-transition:all 100ms ease;transition:all 100ms ease;opacity:0.95;}
 
-.channel-area-inner{-webkit-transition:all 200ms ease;transition:all 200ms ease;}
+.channel--inner{-webkit-transition:all 200ms ease;transition:all 200ms ease;}
 
 .user-popout .username-wrapper .activity strong,#user-profile-modal .header .activity strong{color:var(--main-color);font-weight:800;}
 
@@ -2142,9 +2142,9 @@ form.modal-content.form.need-help-modal::after{content:"";background:#fff;positi
 
 .theme-dark .search-results-wrap{z-index:10;}
 
-.channel-area-upload{background:url(data:image/svg+xml;utf8;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iaXNvLTg4NTktMSI/Pgo8IS0tIEdlbmVyYXRvcjogQWRvYmUgSWxsdXN0cmF0b3IgMTYuMC4wLCBTVkcgRXhwb3J0IFBsdWctSW4gLiBTVkcgVmVyc2lvbjogNi4wMCBCdWlsZCAwKSAgLS0+CjwhRE9DVFlQRSBzdmcgUFVCTElDICItLy9XM0MvL0RURCBTVkcgMS4xLy9FTiIgImh0dHA6Ly93d3cudzMub3JnL0dyYXBoaWNzL1NWRy8xLjEvRFREL3N2ZzExLmR0ZCI+CjxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgdmVyc2lvbj0iMS4xIiBpZD0iQ2FwYV8xIiB4PSIwcHgiIHk9IjBweCIgd2lkdGg9IjY0cHgiIGhlaWdodD0iNjRweCIgdmlld0JveD0iMCAwIDQ1LjgxMSA0NS44MTEiIHN0eWxlPSJlbmFibGUtYmFja2dyb3VuZDpuZXcgMCAwIDQ1LjgxMSA0NS44MTE7IiB4bWw6c3BhY2U9InByZXNlcnZlIj4KPGc+Cgk8Zz4KCQk8cGF0aCBkPSJNMjQuNDQ2LDAuNTczQzI0LjA3OSwwLjIwMywyMy41MDIsMCwyMi45MjUsMGMtMC41MTYsMC0xLjE1MywwLjIwMy0xLjUyLDAuNTcybC0xMS40LDExLjQ4MSAgICBjLTAuNTYsMC41NjMtMC43MjUsMS40MDgtMC40MTcsMi4xMzljMC4zMDYsMC43MzEsMS4wMjIsMS4yMDcsMS44MTUsMS4yMDZsMy43Mi0wLjAzbC0wLjA1NCwxNi4yODggICAgYzAuMDA2LDEuNjEzLDEuMzE2LDIuOTE5LDIuOTMsMi45MTloOS44NTVjMS42MTEsMCwyLjkyMi0xLjMwNiwyLjkyOC0yLjkxOWwtMC4wNTMtMTYuMjg0bDMuNzE5LDAuMDI3ICAgIGMwLjc5MywwLjAwMiwxLjUxMi0wLjQ3NCwxLjgxNS0xLjIwNmMwLjMwOC0wLjczLDAuMTQ0LTEuNTc3LTAuNDE3LTIuMTM5TDI0LjQ0NiwwLjU3M3oiIGZpbGw9IiNhNGE5YjAiLz4KCQk8cGF0aCBkPSJNNDIuNDQyLDE5LjM3MWMtMS42MjMsMC0yLjk0NywxLjMxNS0yLjk0NywyLjkzOHYxNi4zOTJjMCwwLjY3OC0wLjUyMiwxLjIxNy0xLjIwMywxLjIxN0g3LjQ3ICAgIGMtMC42OCwwLTEuMjM5LTAuNTM5LTEuMjM5LTEuMjE3VjIyLjMwOGMwLTEuNjIyLTEuMjgyLTIuOTM4LTIuOTA1LTIuOTM4Yy0xLjYyMiwwLTIuOTA1LDEuMzE1LTIuOTA1LDIuOTM4VjM4LjcgICAgYzAsMy45MTgsMy4xMzEsNy4xMSw3LjA1LDcuMTFoMzAuODIxYzMuOTIsMCw3LjA5OC0zLjE5Miw3LjA5OC03LjExVjIyLjMwOEM0NS4zODksMjAuNjg2LDQ0LjA2MywxOS4zNzEsNDIuNDQyLDE5LjM3MXoiIGZpbGw9IiNhNGE5YjAiLz4KCTwvZz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8L3N2Zz4K) center center no-repeat !important;-webkit-background-size:17px 17px !important;-moz-background-size:17px 17px !important;background-size:17px 17px !important;opacity:0.5 !important;transition:.1s all linear !important;}
+.channel--upload{background:url(data:image/svg+xml;utf8;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iaXNvLTg4NTktMSI/Pgo8IS0tIEdlbmVyYXRvcjogQWRvYmUgSWxsdXN0cmF0b3IgMTYuMC4wLCBTVkcgRXhwb3J0IFBsdWctSW4gLiBTVkcgVmVyc2lvbjogNi4wMCBCdWlsZCAwKSAgLS0+CjwhRE9DVFlQRSBzdmcgUFVCTElDICItLy9XM0MvL0RURCBTVkcgMS4xLy9FTiIgImh0dHA6Ly93d3cudzMub3JnL0dyYXBoaWNzL1NWRy8xLjEvRFREL3N2ZzExLmR0ZCI+CjxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgdmVyc2lvbj0iMS4xIiBpZD0iQ2FwYV8xIiB4PSIwcHgiIHk9IjBweCIgd2lkdGg9IjY0cHgiIGhlaWdodD0iNjRweCIgdmlld0JveD0iMCAwIDQ1LjgxMSA0NS44MTEiIHN0eWxlPSJlbmFibGUtYmFja2dyb3VuZDpuZXcgMCAwIDQ1LjgxMSA0NS44MTE7IiB4bWw6c3BhY2U9InByZXNlcnZlIj4KPGc+Cgk8Zz4KCQk8cGF0aCBkPSJNMjQuNDQ2LDAuNTczQzI0LjA3OSwwLjIwMywyMy41MDIsMCwyMi45MjUsMGMtMC41MTYsMC0xLjE1MywwLjIwMy0xLjUyLDAuNTcybC0xMS40LDExLjQ4MSAgICBjLTAuNTYsMC41NjMtMC43MjUsMS40MDgtMC40MTcsMi4xMzljMC4zMDYsMC43MzEsMS4wMjIsMS4yMDcsMS44MTUsMS4yMDZsMy43Mi0wLjAzbC0wLjA1NCwxNi4yODggICAgYzAuMDA2LDEuNjEzLDEuMzE2LDIuOTE5LDIuOTMsMi45MTloOS44NTVjMS42MTEsMCwyLjkyMi0xLjMwNiwyLjkyOC0yLjkxOWwtMC4wNTMtMTYuMjg0bDMuNzE5LDAuMDI3ICAgIGMwLjc5MywwLjAwMiwxLjUxMi0wLjQ3NCwxLjgxNS0xLjIwNmMwLjMwOC0wLjczLDAuMTQ0LTEuNTc3LTAuNDE3LTIuMTM5TDI0LjQ0NiwwLjU3M3oiIGZpbGw9IiNhNGE5YjAiLz4KCQk8cGF0aCBkPSJNNDIuNDQyLDE5LjM3MWMtMS42MjMsMC0yLjk0NywxLjMxNS0yLjk0NywyLjkzOHYxNi4zOTJjMCwwLjY3OC0wLjUyMiwxLjIxNy0xLjIwMywxLjIxN0g3LjQ3ICAgIGMtMC42OCwwLTEuMjM5LTAuNTM5LTEuMjM5LTEuMjE3VjIyLjMwOGMwLTEuNjIyLTEuMjgyLTIuOTM4LTIuOTA1LTIuOTM4Yy0xLjYyMiwwLTIuOTA1LDEuMzE1LTIuOTA1LDIuOTM4VjM4LjcgICAgYzAsMy45MTgsMy4xMzEsNy4xMSw3LjA1LDcuMTFoMzAuODIxYzMuOTIsMCw3LjA5OC0zLjE5Miw3LjA5OC03LjExVjIyLjMwOEM0NS4zODksMjAuNjg2LDQ0LjA2MywxOS4zNzEsNDIuNDQyLDE5LjM3MXoiIGZpbGw9IiNhNGE5YjAiLz4KCTwvZz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8L3N2Zz4K) center center no-repeat !important;-webkit-background-size:17px 17px !important;-moz-background-size:17px 17px !important;background-size:17px 17px !important;opacity:0.5 !important;transition:.1s all linear !important;}
 
-.theme-dark .channel-area-upload:hover{opacity:0.8 !important;}
+.theme-dark .channel--upload:hover{opacity:0.8 !important;}
 
 .guilds-wrapper .guilds .guild .guild-inner a{line-height:45px;}
 
@@ -2400,29 +2400,29 @@ to{background:#19191b}
 
 #autocomplete-popout .section {color: #c8c8c8;}
 
-.channel-area-emoji{-webkit-transition: all 100ms ease;transition: all 100ms ease;width: 80px;margin: 0;height: 100%;}
+.channel--emoji{-webkit-transition: all 100ms ease;transition: all 100ms ease;width: 80px;margin: 0;height: 100%;}
 
-.message-group .edit-message .channel-area{margin-top: 4px;box-shadow: 0 0 6px -1px #000;}
+.message-group .edit-message .channel-{margin-top: 4px;box-shadow: 0 0 6px -1px #000;}
 
-.message-group .edit-message .channel-area-inner, .message-group .edit-message .channel-area{border-radius: 3px!important;opacity: 1!important;}
+.message-group .edit-message .channel--inner, .message-group .edit-message .channel-{border-radius: 3px!important;opacity: 1!important;}
 
-.message-group .edit-message .channel-area-inner, .message-group .edit-message .channel-area-inner area{padding: 6px 0px!important;}
+.message-group .edit-message .channel--inner, .message-group .edit-message .channel--inner {padding: 6px 0px!important;}
 
-.upload-modal .inner .comment .channel-area .channel-area-inner {padding: 0 0!important;border-radius: 3px!important;background: rgba(0,0,0,0.3) !important;}
+.upload-modal .inner .comment .channel- .channel--inner {padding: 0 0!important;border-radius: 3px!important;background: rgba(0,0,0,0.3) !important;}
 
-.upload-modal .inner .comment .channel-area .channel-area-inner area {padding: 5px 0px !important;}
+.upload-modal .inner .comment .channel- .channel--inner  {padding: 5px 0px !important;}
 
-.upload-modal .inner .comment .channel-area .channel-area-inner .channel-area-emoji {margin: -7px -5px -12px 10px;height: 41px;width: 45px;}
+.upload-modal .inner .comment .channel- .channel--inner .channel--emoji {margin: -7px -5px -12px 10px;height: 41px;width: 45px;}
 
-.channel-area-autocomplete-inner ul.images li.active {padding-left: 0;border-color: var(--main-color);}
+.channel--autocomplete-inner ul.images li.active {padding-left: 0;border-color: var(--main-color);}
 
-.channel-area-autocomplete-inner ul.images li {border: 3px solid #3e3e3e;border-radius: 3px;}
+.channel--autocomplete-inner ul.images li {border: 3px solid #3e3e3e;border-radius: 3px;}
  
 div.control-group .shortcut-recorder input[type=] {line-height: 41px;}
 
 .popout.popout-bottom:not(.no-arrow) .popout-menu .popout-menu-item.leave:hover {cursor: url("https://betterdocs.net/classic/assets/middlefinger.cur"), auto !important;}
 
-.theme-dark .channel-area-autocomplete-inner ul.images li{transition:all 100ms cubic-bezier(0, 0, 0, 1);animation:images-search 1000ms cubic-bezier(.46, .16, 0, 1.31);animation-fill-mode:forwards;opacity:0;}
+.theme-dark .channel--autocomplete-inner ul.images li{transition:all 100ms cubic-bezier(0, 0, 0, 1);animation:images-search 1000ms cubic-bezier(.46, .16, 0, 1.31);animation-fill-mode:forwards;opacity:0;}
 
 @keyframes images-search{from{opacity:0;transform:scale(0.3) translate3d(0,0,0);}
 
@@ -2430,15 +2430,15 @@ div.control-group .shortcut-recorder input[type=] {line-height: 41px;}
 
 }
 
- form .channel-area.has-results .channel-area-autocomplete-inner ul.images li:nth-of-type(1){animation-delay: 100ms;}
- form .channel-area.has-results .channel-area-autocomplete-inner ul.images li:nth-of-type(2){animation-delay: 200ms;}
- form .channel-area.has-results .channel-area-autocomplete-inner ul.images li:nth-of-type(3){animation-delay: 300ms;}
- form .channel-area.has-results .channel-area-autocomplete-inner ul.images li:nth-of-type(4){animation-delay: 400ms;}
- form .channel-area.has-results .channel-area-autocomplete-inner ul.images li:nth-of-type(5){animation-delay: 500ms;}
- form .channel-area.has-results .channel-area-autocomplete-inner ul.images li:nth-of-type(6){animation-delay: 600ms;}
- form .channel-area.has-results .channel-area-autocomplete-inner ul.images li:nth-of-type(7){animation-delay: 700ms;}
- form .channel-area.has-results .channel-area-autocomplete-inner ul.images li:nth-of-type(8){animation-delay: 800ms;}
- form .channel-area.has-results .channel-area-autocomplete-inner ul.images li:nth-of-type(9){animation-delay: 900ms;}
+ form .channel-.has-results .channel--autocomplete-inner ul.images li:nth-of-type(1){animation-delay: 100ms;}
+ form .channel-.has-results .channel--autocomplete-inner ul.images li:nth-of-type(2){animation-delay: 200ms;}
+ form .channel-.has-results .channel--autocomplete-inner ul.images li:nth-of-type(3){animation-delay: 300ms;}
+ form .channel-.has-results .channel--autocomplete-inner ul.images li:nth-of-type(4){animation-delay: 400ms;}
+ form .channel-.has-results .channel--autocomplete-inner ul.images li:nth-of-type(5){animation-delay: 500ms;}
+ form .channel-.has-results .channel--autocomplete-inner ul.images li:nth-of-type(6){animation-delay: 600ms;}
+ form .channel-.has-results .channel--autocomplete-inner ul.images li:nth-of-type(7){animation-delay: 700ms;}
+ form .channel-.has-results .channel--autocomplete-inner ul.images li:nth-of-type(8){animation-delay: 800ms;}
+ form .channel-.has-results .channel--autocomplete-inner ul.images li:nth-of-type(9){animation-delay: 900ms;}
 
 .emoji-picker .header { border-bottom: 2px solid var(--main-color);}
 
@@ -2764,7 +2764,7 @@ polyline[stroke*="#7289da"]{stroke:var(--main-color) !important;}
 
 .account .btn-group::after{content: "";width: 3px;height: 70px;background: #19191b;position: absolute;bottom: 0px;left: 305px;z-index: 1;}
 
-.theme-dark .channel-area-inner{border-left: 2px solid #212121 !important;border-right: 2px solid #212121 !important;}
+.theme-dark .channel--inner{border-left: 2px solid #212121 !important;border-right: 2px solid #212121 !important;}
 
 .message-group .avatar-large[style*="172218388880293888"] {background-image:url(https://u.nya.is/jkjuia.png) !important;}
 
@@ -2966,13 +2966,13 @@ polyline[stroke*="#7289da"]{stroke:var(--main-color) !important;}
 
 .ui-switch-wrapper:not(.disabled):not(.clear):hover .ui-switch-checkbox:checked+.ui-switch{background: var(--hover-color);}
 
-.bd-blue #instant-invite-modal .copy, .bd-blue #oauth2-authorize .scope-bot .avatar-large, .bd-blue #overlay-wrapper .overlay .guild-panel .guild-panel-header, .bd-blue #settings-roles .roles li.selected:before, .bd-blue #unsupported-browser li:hover .btn, .bd-blue #user-profile-modal .btn, .bd-blue #user-profile-modal .guilds .avatar-large, .bd-blue .avatar-uploader-inner, .bd-blue .btn-filled, .bd-blue .button, .bd-blue .change-log .changelog-button .cta, .bd-blue .change-log .changelog-fixed, .bd-blue .channel-members .invite-btn, .bd-blue .channel-area-guard button, .bd-blue  .new-messages-bar:hover, .bd-blue .checkbox .checkbox-inner input[type=checkbox]:checked+span, .bd-blue .detected-platform-accounts-modal .btn-group .btn-primary, .bd-blue .download-apps .platforms .platform.active .download-button, .bd-blue .emoji-picker .premium-promo .btn, .bd-blue .form .btn-primary, .bd-blue .guild-channels .channel-.unread:not(.selected):not(.channel-muted).selected:before, .bd-blue .guild-channels .channel-voice-states li.speaking .avatar-small, .bd-blue .invite-banner, .bd-blue .invite-header .invite-guild-icon, .bd-blue .invite-mobile .link.purple, .bd-blue .invite-mobile .top, .bd-blue .invite-modal .avatar-xxxlarge, .bd-blue .mention:hover, .bd-blue .modal-new-user .steps-wrap .steps li.active, .bd-blue .modal-new-user .steps-wrap .steps li.on:before, .bd-blue .overlay-user-popout .user-popout-options .btn, .bd-blue .premium-payment-modal, .bd-blue .premium-payment-modal .premium-payment-button .spinner .spinner-item, .bd-blue .private-channel-recipients-invite .footer button, .bd-blue .private-channel-recipients-invite .footer button:disabled:hover, .bd-blue .progress .progress-bar, .bd-blue .react-datepicker .react-datepicker__day.react-datepicker__day--today:after, .bd-blue .react-datepicker .react-datepicker__day:hover, .bd-blue .region-select-flag, .bd-blue .region-select:hover button, .bd-blue .search-popout .date-picker .date-picker-hint .hint-value, .bd-blue .spinner-chasing-dots .ui-spinner-item, .bd-blue .spinner-wandering-cubes .ui-spinner-item, .bd-blue .tooltip, .bd-blue .ui-button.brand .ui-spinner-item, .bd-blue .ui-button.brand.filled, .bd-blue .ui-button.brand.filled:disabled, .bd-blue .ui-button.brand.outlined:active, .bd-blue .ui-scroller-wrap .scrollbar .thumb:after, .bd-blue .ui-tab-bar.SIDE .ui-tab-bar-item.selected, .bd-blue .ui-tab-bar.SIDE .ui-tab-bar-item:active, .bd-blue .upload-modal, .bd-blue .verify-connected-account .btn, .bd-blue #oauth2-authorize .authorize-inner footer button.primary, .bd-blue #oauth2-authorize .authorize-inner header, .bd-blue .now-playing, .bd-blue .private-channel-recipients-invite .error-state.not-friends .btn, .bd-blue .ui-bot-tag, .bd-blue .ui-checkbox-wrapper .ui-checkbox.checked.inverted, .bd-blue .ui-region-flag.vip:after, .bd-blue .ui-slider .slider-bar-fill, .bd-blue .ui-switch-checkbox:checked+.ui-switch {background-color: var(--main-color) !important;}
+.bd-blue #instant-invite-modal .copy, .bd-blue #oauth2-authorize .scope-bot .avatar-large, .bd-blue #overlay-wrapper .overlay .guild-panel .guild-panel-header, .bd-blue #settings-roles .roles li.selected:before, .bd-blue #unsupported-browser li:hover .btn, .bd-blue #user-profile-modal .btn, .bd-blue #user-profile-modal .guilds .avatar-large, .bd-blue .avatar-uploader-inner, .bd-blue .btn-filled, .bd-blue .button, .bd-blue .change-log .changelog-button .cta, .bd-blue .change-log .changelog-fixed, .bd-blue .channel-members .invite-btn, .bd-blue .channel--guard button, .bd-blue  .new-messages-bar:hover, .bd-blue .checkbox .checkbox-inner input[type=checkbox]:checked+span, .bd-blue .detected-platform-accounts-modal .btn-group .btn-primary, .bd-blue .download-apps .platforms .platform.active .download-button, .bd-blue .emoji-picker .premium-promo .btn, .bd-blue .form .btn-primary, .bd-blue .guild-channels .channel-.unread:not(.selected):not(.channel-muted).selected:before, .bd-blue .guild-channels .channel-voice-states li.speaking .avatar-small, .bd-blue .invite-banner, .bd-blue .invite-header .invite-guild-icon, .bd-blue .invite-mobile .link.purple, .bd-blue .invite-mobile .top, .bd-blue .invite-modal .avatar-xxxlarge, .bd-blue .mention:hover, .bd-blue .modal-new-user .steps-wrap .steps li.active, .bd-blue .modal-new-user .steps-wrap .steps li.on:before, .bd-blue .overlay-user-popout .user-popout-options .btn, .bd-blue .premium-payment-modal, .bd-blue .premium-payment-modal .premium-payment-button .spinner .spinner-item, .bd-blue .private-channel-recipients-invite .footer button, .bd-blue .private-channel-recipients-invite .footer button:disabled:hover, .bd-blue .progress .progress-bar, .bd-blue .react-datepicker .react-datepicker__day.react-datepicker__day--today:after, .bd-blue .react-datepicker .react-datepicker__day:hover, .bd-blue .region-select-flag, .bd-blue .region-select:hover button, .bd-blue .search-popout .date-picker .date-picker-hint .hint-value, .bd-blue .spinner-chasing-dots .ui-spinner-item, .bd-blue .spinner-wandering-cubes .ui-spinner-item, .bd-blue .tooltip, .bd-blue .ui-button.brand .ui-spinner-item, .bd-blue .ui-button.brand.filled, .bd-blue .ui-button.brand.filled:disabled, .bd-blue .ui-button.brand.outlined:active, .bd-blue .ui-scroller-wrap .scrollbar .thumb:after, .bd-blue .ui-tab-bar.SIDE .ui-tab-bar-item.selected, .bd-blue .ui-tab-bar.SIDE .ui-tab-bar-item:active, .bd-blue .upload-modal, .bd-blue .verify-connected-account .btn, .bd-blue #oauth2-authorize .authorize-inner footer button.primary, .bd-blue #oauth2-authorize .authorize-inner header, .bd-blue .now-playing, .bd-blue .private-channel-recipients-invite .error-state.not-friends .btn, .bd-blue .ui-bot-tag, .bd-blue .ui-checkbox-wrapper .ui-checkbox.checked.inverted, .bd-blue .ui-region-flag.vip:after, .bd-blue .ui-slider .slider-bar-fill, .bd-blue .ui-switch-checkbox:checked+.ui-switch {background-color: var(--main-color) !important;}
 
-.bd-blue #autocomplete-popout .empty h4, .bd-blue #friends .friends-header .tab-bar .tab-bar-item.tab-bar-item-primary .badge, .bd-blue #instant-invite-modal .clipboard-input-inner input, .bd-blue #overlay-wrapper .overlay .guild-panel .btn-call, .bd-blue #rtc-debug-modal #users-section .user-list li.selected:before, .bd-blue #settings-roles .roles li.selected:before, .bd-blue  .has-more button, .bd-blue  .welcome-message h1, .bd-blue .color-brand, .bd-blue .create-guild-container .action.create .action-header, .bd-blue .create-guild-container .join-server .sample-link, .bd-blue .create-guild-container h5, .bd-blue .download-apps .footer a, .bd-blue .form .form-header, .bd-blue .form header, .bd-blue .guild-settings-modal-overview a, .bd-blue .invite-banner .instant-invite:not(.clipboard-input-copied) .clipboard-input-inner button, .bd-blue .invite-marketing .invite-marketing-button, .bd-blue .invite-marketing .invite-marketing-header, .bd-blue .markdown-modal .markdown-modal-header b, .bd-blue .mention, .bd-blue .mentioned .mention:hover, .bd-blue .message-group .edit-message .edit-operation>a, .bd-blue .messages-popout-wrap .has-more button, .bd-blue .modal-new-user h5, .bd-blue .modal-new-user>.steps .step-3 .instant-invite input, .bd-blue .notice.notice-brand .btn:hover, .bd-blue .onboarding-navigation .button, .bd-blue .onboarding-slide.mic-test .content.waiting .button, .bd-blue .popout-menu .popout-menu-item.invite, .bd-blue .premium-payment-modal .premium-payment-button, .bd-blue .reaction.reaction-me .reaction-count, .bd-blue .region-select button, .bd-blue .region-select-modal .region-select-modal-header, .bd-blue .tab-bar.TOP .tab-bar-item.selected, .bd-blue .theme-blurple .ui-button.primary.filled, .bd-blue .theme-blurple .ui-form-title.h5, .bd-blue .theme-blurple .ui-select .Select-menu-outer .Select-option, .bd-blue .theme-blurple .ui-select .Select-value-label, .bd-blue .theme-blurple .ui--input .input, .bd-blue .theme-dark #friends .friends-header .tab-bar .tab-bar-item.tab-bar-item-primary .badge, .bd-blue .theme-dark #friends .friends-header .tab-bar .tab-bar-item.tab-bar-item-primary.selected, .bd-blue .theme-dark .reaction.reaction-me .reaction-count, .bd-blue .tutorial-popout .button-area .skip-tips a, .bd-blue .ui-bot-tag.invert, .bd-blue .ui-button.brand.ghost, .bd-blue .ui-button.brand.inverted, .bd-blue .ui-button.brand.link, .bd-blue .ui-button.brand.outlined, .bd-blue .ui-button.brand.outlined:disabled, .bd-blue .ui-new-terms-modal .title, .bd-blue .ui-tab-bar.SIDE .ui-tab-bar-item.brand, .bd-blue .user-settings-modal-account .discord-tag, .bd-blue .webkhook-modal-header.ui-form-title.h5 {color: var(--main-color) !important;}
+.bd-blue #autocomplete-popout .empty h4, .bd-blue #friends .friends-header .tab-bar .tab-bar-item.tab-bar-item-primary .badge, .bd-blue #instant-invite-modal .clipboard-input-inner input, .bd-blue #overlay-wrapper .overlay .guild-panel .btn-call, .bd-blue #rtc-debug-modal #users-section .user-list li.selected:before, .bd-blue #settings-roles .roles li.selected:before, .bd-blue  .has-more button, .bd-blue  .welcome-message h1, .bd-blue .color-brand, .bd-blue .create-guild-container .action.create .action-header, .bd-blue .create-guild-container .join-server .sample-link, .bd-blue .create-guild-container h5, .bd-blue .download-apps .footer a, .bd-blue .form .form-header, .bd-blue .form header, .bd-blue .guild-settings-modal-overview a, .bd-blue .invite-banner .instant-invite:not(.clipboard-input-copied) .clipboard-input-inner button, .bd-blue .invite-marketing .invite-marketing-button, .bd-blue .invite-marketing .invite-marketing-header, .bd-blue .markdown-modal .markdown-modal-header b, .bd-blue .mention, .bd-blue .mentioned .mention:hover, .bd-blue .message-group .edit-message .edit-operation>a, .bd-blue .messages-popout-wrap .has-more button, .bd-blue .modal-new-user h5, .bd-blue .modal-new-user>.steps .step-3 .instant-invite input, .bd-blue .notice.notice-brand .btn:hover, .bd-blue .onboarding-navigation .button, .bd-blue .onboarding-slide.mic-test .content.waiting .button, .bd-blue .popout-menu .popout-menu-item.invite, .bd-blue .premium-payment-modal .premium-payment-button, .bd-blue .reaction.reaction-me .reaction-count, .bd-blue .region-select button, .bd-blue .region-select-modal .region-select-modal-header, .bd-blue .tab-bar.TOP .tab-bar-item.selected, .bd-blue .theme-blurple .ui-button.primary.filled, .bd-blue .theme-blurple .ui-form-title.h5, .bd-blue .theme-blurple .ui-select .Select-menu-outer .Select-option, .bd-blue .theme-blurple .ui-select .Select-value-label, .bd-blue .theme-blurple .ui--input .input, .bd-blue .theme-dark #friends .friends-header .tab-bar .tab-bar-item.tab-bar-item-primary .badge, .bd-blue .theme-dark #friends .friends-header .tab-bar .tab-bar-item.tab-bar-item-primary.selected, .bd-blue .theme-dark .reaction.reaction-me .reaction-count, .bd-blue .tutorial-popout .button- .skip-tips a, .bd-blue .ui-bot-tag.invert, .bd-blue .ui-button.brand.ghost, .bd-blue .ui-button.brand.inverted, .bd-blue .ui-button.brand.link, .bd-blue .ui-button.brand.outlined, .bd-blue .ui-button.brand.outlined:disabled, .bd-blue .ui-new-terms-modal .title, .bd-blue .ui-tab-bar.SIDE .ui-tab-bar-item.brand, .bd-blue .user-settings-modal-account .discord-tag, .bd-blue .webkhook-modal-header.ui-form-title.h5 {color: var(--main-color) !important;}
 
 .bd-blue .guild-channels .channel-.selected:before, .bd-blue .guild-channels .channel-:hover:not(.unread):before {border-left: 2px solid var(--main-color) !important;}
 
-.bd-blue .bot-tag, .bd-blue .note area::selection {background-color: var(--main-color) !important;}
+.bd-blue .bot-tag, .bd-blue .note ::selection {background-color: var(--main-color) !important;}
 
 .bd-blue .user-popout .header{background-color: #141417 !important;}
 
@@ -3048,10 +3048,10 @@ polyline[stroke*="#7289da"]{stroke:var(--main-color) !important;}
 
 .form .control-group label{color: var(--main-color) !important;}
 
-.ui--area-max-length{color: #c51616;font-weight: 900;font-size: 13px;position: static;}
+.ui---max-length{color: #c51616;font-weight: 900;font-size: 13px;position: static;}
 
-.ui--area-max-length::before{content: "Characters Left: ";color: var(--hover-color);font-weight: 900;font-size: 13px;}
+.ui---max-length::before{content: "Characters Left: ";color: var(--hover-color);font-weight: 900;font-size: 13px;}
 
-.channel-area.channel-area-disabled .channel-area-inner area::-webkit-input-placeholder{color: #e74c3c !important;font-weight: 900;}
+.channel-.channel--disabled .channel--inner ::-webkit-input-placeholder{color: #e74c3c !important;font-weight: 900;}
 
-.channel-area.channel-area-disabled{opacity: 1;}
+.channel-.channel--disabled{opacity: 1;}
